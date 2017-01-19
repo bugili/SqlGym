@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="Constraints">
+  <Items>
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="ict-211-4738\sqlgym:DELTABANK\OSMILOS">
+          <Created>2017-01-16T16:01:43.2478077+01:00</Created>
+          <Type>SQL</Type>
+          <Server>ict-211-4738\sqlgym</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="Check.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ict-211-4738\sqlgym:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>ict-211-4738\sqlgym</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Check.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Defaults.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ict-211-4738\sqlgym:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>ict-211-4738\sqlgym</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Defaults.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Foreign Key.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ict-211-4738\sqlgym:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>ict-211-4738\sqlgym</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Foreign Key.sql</FullPath>
+        </FileNode>
+        <FileNode Name="insert.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ict-211-4738\sqlgym:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>ict-211-4738\sqlgym</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>insert.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Primary Key.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ict-211-4738\sqlgym:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>ict-211-4738\sqlgym</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Primary Key.sql</FullPath>
+        </FileNode>
+        <FileNode Name="UNIQUE.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ict-211-4738\sqlgym:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>ict-211-4738\sqlgym</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>UNIQUE.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>
