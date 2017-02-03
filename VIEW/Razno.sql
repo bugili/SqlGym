@@ -31,6 +31,6 @@ WHILE @Counter <= 5
 
 SELECT COUNT(*) AS Count FROM ComputerInfo 
 
-SELECT SUM(@@ROWCOUNT) FROM PhysicalMemory WHERE PSComputerName = 'hvtest1'
+SELECT SUM(@@ROWCOUNT) as mem FROM PhysicalMemory WHERE PSComputerName = 'hvtest1' 
 
 SELECT * FROM ComputerInfo WHERE ComputerName LIKE '%XENAPP-DB-TRN01'
