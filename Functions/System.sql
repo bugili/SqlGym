@@ -112,3 +112,6 @@ SELECT STUFF(@string, CHARINDEX(SPACE(1), @string) + 1, 2, 'more') AS [:)]
 
 ---REVERSE
 SELECT REVERSE('Avengers assemble')
+
+---Konektovani korisnici 
+sp_who i sp_who2 
